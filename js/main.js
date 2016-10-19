@@ -92,7 +92,7 @@ function gradeQuiz(){
             console.log("The answer is, <b>Walt Disney's imagination</b>.");
             document.querySelector(".responseNine").innerHTML = "The answer is Walt Disney's, imagination.";
     
-          var answerTen = document.querySelector('input[name = "q10).value;
+          var answerTen = document.querySelector('input[name = "q10").value;
              console.log("You wrote " + answerTen);
              
         if (answerTen == N/A); {
@@ -217,7 +217,7 @@ function gradeQuiz(){
              console.log("The answer is, <b>I figured</b>.");
              document.querySelector(".responseTwenty").innerHTML = "The answer is, I figured.";
          }
-     
+         
          
     
     console.log("Your current score is " + userScore);
