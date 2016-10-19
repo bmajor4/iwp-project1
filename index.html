@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
+        <title>The Quiz</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -15,9 +15,172 @@
             <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
         <![endif]-->
     </head>
+    
     <body>
-
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+        <section class="quiz">
+            
+            <h1>Your American History Quiz</h1>
+            
+            <p>If you have been in America for more than 5 1/2 hours, these are things you should already know.</p>
+            
+            <section>
+                <p class="question">1. Who is the current president?</p>
+                
+                <input id="q1answer" type="text" name="q1">
+                <p class="responseOne"></p>
+                
+                <br>
+                <hr>
+                
+                <p class="question">2. Where was Washington D.C. first located?</p>
+                
+                <input id="q2answer" type="text" name="q2">
+                
+                <br>
+                <hr>
+                
+                <p class="question">3. What is the capital of Las Vegas?</p>
+                
+                <input id="q3answer" type="text" name="q3">
+                
+                <br>
+                <hr>
+                
+                <p class="question">4. What is the 17th largest state in America?</p>
+                
+                <input id="q4answer" type="text" name="q4">
+                
+                <br>
+                <hr>
+                
+                <p class="question">5. How many lakes are in America?</p>
+                
+                <input id="q5answer" type="text" name="q5">
+                
+                <br>
+                <hr>
+                
+                <p class="question">6. What countries border the east and west coast of America?</p>
+                
+                <input id="q6answer" type="text" name="q5">
+                
+                <br>
+                <hr>
+                
+                <p class="question">7. How long is Interstate 10 (I-10)?</p>
+                
+                <input id="q7answer" type="text" name="q7">
+                
+                <br>
+                <hr>
+                
+                <p class="question">8. Where is the smallest chicken farm in America?</p>
+                
+                <input id="q8answer" type="text" name="q8">
+                
+                <br>
+                <hr>
+                
+                <p class="question">9. Where is Mickey Mouse from?</p>
+                
+                <input id="q9answer" type="text" name="q9">
+                
+                <br>
+                <hr>
+                
+                <p class="question">10. How many Mayors are in America?</p>   
+                
+                <input id="q10answer" type="text" name="q10">
+                
+                <br>
+                <hr>
+                
+                <p class="question">11. Who was the 1st person born in America?</p>
+                
+                <input id="q11answer" type="text" name="q11">
+                
+                <br>
+                <hr>
+                
+                <p class="question">12. How many cows do Americans eat?</p>
+                
+                <input id="q12answer" type="text" name="q12">
+                
+                <br>
+                <hr>
+                
+                <p class="question">13. Where are Trump ties made?</p>
+                
+                <input id="q13answer" type="text" name="q13">
+                
+                <br>
+                <hr>
+                
+                <p class="question">14. If it is 1 pm in Flordia, what time is it in Orlando?</p>
+                
+                <input id="q14answer" type="text" name="q14">
+                
+                <br>
+                <hr>
+                
+                <p class="question">15. What state starts with the letter B?</p>
+                
+                <input id="q15answer" type="text" name="q15">
+                
+                <br>
+                <hr>
+                
+                <p class="question">16. What is 55 mph converted into H2O?</p>
+                
+                <input id="q16answer" type="text" name="q16">
+                
+                <br>
+                <hr>
+                
+                <p class="question">17. Where was the 1st crosswalk located in America?</p>
+                
+                <input id="q17answer" type="text" name="q17">
+                
+                <br>
+                <hr>
+                
+                <p class="question">18. How many state flags are there?</p>
+                
+                <input id="q18answer" type="text" name="q18">
+                
+                <br>
+                <hr>
+                
+                <p class="question">19. Are you American?</p>
+                
+                <input id="q19answer" type="text" name="q19">
+                
+                <br>
+                <hr>
+                
+                <p class="question">20. Do you think you passed?</p>
+                
+                <input id="q20answer" type="text" name="q20">
+                
+                
+                    
+                </section>
+                
+            <section>
+            <p>Click the button below to get your results.</p>
+            <input class="quizSubmit" id="submitButton" onClick="gradeQuiz()" type="submit" value="Submit Answers">
+            </section>
+            
+            <section>
+                <h1>Your Results</h1>
+                <p>You did this to yourself!</p>
+                <h2 id="userResult"></h2>
+            </section>
+                
+        </section>
+        
+      
+        <script src="js/main.js"></script>
 
     </body>
 </html>
